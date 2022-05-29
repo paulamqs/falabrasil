@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fala Brasil</title>
+   <!-- <script src="script.js"></script>-->
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <a href="#box1"><li>Home</li></a>
+        <a href="#box2"><li>Cursos</li></a>
+        <a href="#box3"><li>Clases</li></a>
+        <a href="#box4"><li>Galeria</li></a>
+        <a href="#box5"><li>Contacto</li></a>
+      </ul>
+    </nav>
+    <section id="box1">
+      
+      <div id="cont">
+        <div class="caja">
+
+          <button
+            type="submit"
+            id="videopopup"
+            class="boton"
+            onclick="abrirPopup()"
+          >
+            Video
+          </button>
+
+          <div class="popup" id="popup">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/KtUVFX33_98"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+            <button
+              type="submit"
+              id="videopopup1"
+              class="btn_cerrar"
+              onclick="cerrarPopup()"
+            >
+              Cerrar
+            </button>
+          </div>}
+          <div class="caja"><image ></div>
+          
+          <div ><p ><h1 >Fala Brasil</h1></p></div>
+          
+        </div>
+      
+      </div>
+
+      
+    </section>
+
+    <section id="box2">
+      <div class="caja">Caja 5</div>
+    </section>
+
+    <section id="box3">
+      <div class="caja">Caja 6</div>
+    </section>
+
+    <section id="box4">
+      <div class="caja">Caja 5</div>
+    </section>
+
+    <section id="box5">
+      <div class="caja">Caja 6</div>
+    </section>
+
+    <footer>
+      <div>Todos los derechos reservados</div>
+    </footer>
+   <script>
+      console.log("Hello");
+
+      let popup = document.getElementById("popup");
+      function abrirPopup() {
+        popup.classList.add("openpopup");
+      }
+
+      function cerrarPopup() {
+        popup.classList.remove("openpopup");
+      }
+    </script>
+  </body>
+</html>

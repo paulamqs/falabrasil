@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1.300 & display=swap');
+html { 
+  
+    no-repeat center center fixed; 
+    
+  background-size: cover;
+  background-size: cover;
+
+}
+body{
+  
+  
+ 
+
+
+}
+
+nav {
+  
+  top:0;
+  margin:0;
+  position:fixed;   
+  color: #2E86C1;
+  border: solid #2E86C1 2px;
+  
+  width:100%;
+background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+nav ul {
+
+  padding:20px;
+  display:flex;
+  justify-content: space-around;
+  border:solid #2E86C1 2px;
+
+
+
+}
+  li {
+    background-color:green;
+    border-radius:10%;
+    align-items:center;
+    padding:0.5rem 2rem 0.5rem 2rem;
+    list-style:none;
+    
+
+    }
+nav ul a {
+
+  text-decoration:none;
+  }
+h3{
+  text-align:center;
+  }
+h1{
+  text-align:center;
+  font-family: 'Kanit', sans-serif;
+    padding:90px;
+  color:white;
+  }
+
+p{
+  text-align:center;
+   font-family: 'Kanit', sans-serif;
+    padding:90px;
+ 
+  
+  }
+  
+
+}
+
+
+#box1 {
+    background-image:url("https://cdn.glitch.global/c299e1cc-1d21-459b-9f80-03f986c88691/World%20Map%20(1).svg?v=1653787733941") ;
+  padding: 20px;
+   
+  border: solid 2px;
+  height:100vh;
+    background-size:cover;
+}
+
+
+  
+
+#box2 {
+  padding: 20px;
+  
+  background-image:url("https://cdn.glitch.global/c299e1cc-1d21-459b-9f80-03f986c88691/World%20Map%20(1).svg?v=1653787733941") ;
+  
+  height:100vh;
+  background-size:cover;
+}
+
+#cont {
+  
+  justify-content:center;
+  gap:30px;
+  background-image:url("https://cdn.glitch.global/c299e1cc-1d21-459b-9f80-03f986c88691/World%20Map%20(1).svg?v=1653787733941") ;
+   background-size:cover;
+  border-radius:30px;
+  
+  
+}
+.caja{
+  
+  width:70%;
+  height:100%;
+  border: solid white 2px;
+border-radius:30px;
+
+  
+} 
+
+
+ footer{
+           border:  solid #2E86C1 2px;
+   
+   }
+@media screen and (min-width: 320px){
+  
+  
+  #box3 {
+ background-image:url("https://cdn.glitch.global/c299e1cc-1d21-459b-9f80-03f986c88691/World%20Map%20(1).svg?v=1653787733941") ;
+    padding: 20px;
+  
+  
+  
+  height:100vh;
+    background-size:cover;
+}
+  
+  #box4 {
+     background-image:url("https://cdn.glitch.global/c299e1cc-1d21-459b-9f80-03f986c88691/World%20Map%20(1).svg?v=1653787733941") ;
+  padding: 20px;
+    
+  height:100vh;
+    background-size:cover;
+}
+  #box5 {
+     background-image:url("https://cdn.glitch.global/c299e1cc-1d21-459b-9f80-03f986c88691/World%20Map%20(1).svg?v=1653787733941") ;
+  padding: 20px;
+  
+  
+  border: solid 2px;
+  height:100vh;
+    background-size:cover;
+}
+  
+  .texto2{
+    font-size:3em;
+    justify-content:center;
+    padding:0 3em 0 3em;
+    text-align:justify;
+    color: White;
+  }
+  .boton{ 
+    background-color: #F8D617; 
+    border-radius: 100%;
+      border: none;
+    color: blue;
+      padding: 16px 16px;
+    transition:0.3s;
+    opacity:1;
+    
+  }
+  .boton:hover{
+       background-color: #F8D617;
+    opacity:0.6;
+    fony-size1.1em;
+      
+   } 
+  .popup{
+    width:75%;
+    position:absolute;
+    top:0;
+    margin:0 auto;
+    visibility:hidden;
+    transform: translate(10%)
+  }
+  .openpopup{
+     visibility:visible;
+    top:60%;
+    transform: translate(10%)
+
+    
+  }
