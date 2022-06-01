@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1.300 & display=swap');
+ @import url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1.300 & display=swap');
 html { 
-  
-    no-repeat center center fixed; 
-    
-  background-size: cover;
-  background-size: cover;
+ 
+     
+ 
 
 }
 body{
@@ -19,9 +17,9 @@ nav {
   
   top:0;
   margin:0;
-  position:fixed;   
+  
   color: #2E86C1;
-  border: solid #2E86C1 2px;
+  
   
   width:100%;
 background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
@@ -39,6 +37,14 @@ nav ul {
 
 
 
+}
+nav li ul{
+  display:none;
+  
+}
+nav li:hover > ul{
+  display:block;
+  
 }
   li {
     background-color:green;
@@ -59,7 +65,7 @@ h3{
 h1{
   text-align:center;
   font-family: 'Kanit', sans-serif;
-    padding:90px;
+    padding:10px;
   color:white;
   }
 
@@ -88,7 +94,7 @@ p{
   
 
 #box2 {
-  padding: 20px;
+ 
   
   background-image:url("https://cdn.glitch.global/c299e1cc-1d21-459b-9f80-03f986c88691/World%20Map%20(1).svg?v=1653787733941") ;
   
@@ -97,7 +103,7 @@ p{
 }
 
 #cont {
-  
+    display:flex;
   justify-content:center;
   gap:30px;
   background-image:url("https://cdn.glitch.global/c299e1cc-1d21-459b-9f80-03f986c88691/World%20Map%20(1).svg?v=1653787733941") ;
@@ -108,15 +114,52 @@ p{
 }
 .caja{
   
-  width:70%;
-  height:100%;
-  border: solid white 2px;
-border-radius:30px;
-
+  width:50%;
+  height:50%;
+  /* background-image:url("https://cdn.glitch.global/c299e1cc-1d21-459b-9f80-03f986c88691/Geografia-de-Brasil.webp?v=1653778874520") ;*/
+  border-radius:40px;
+  align:center;
   
 } 
+.caja2{
+  
+ 
+  height:50%;
+   background-image: linear-gradient(to left bottom, #27e508, #4ce633, #63e64a, #76e75e, #87e770, #97e873, #a5e976, #b2ea7a, #c4ec72, #d6ed6a, #e8ed64, #fbed5f);
+  border-radius:10px;
+  align:center;
+  
+} 
+.caja3{
+  
+  width:60%;
+  height:10%;
+   background-image: linear-gradient(to left bottom, #27e508, #4ce633, #63e64a, #76e75e, #87e770, #97e873, #a5e976, #b2ea7a, #c4ec72, #d6ed6a, #e8ed64, #fbed5f);
+  border-radius:80px;
+  align:center;
+    top:0;
+  margin:0;
+    position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  
+} 
+.caja4{
+  
+  width:30%;
+  height:60%;
+ /* background-image: linear-gradient(to bottom, #e936e1, #ff189e, #ff585f, #ff9326, #efc300, #ded404, #c8e421, #adf43e, #c5f242, #d9f04a, #ebef54, #fbed5f);
+ */
+ border-radius:80px;
+ text-align:right;
+  font-family: 'Kanit', sans-serif;
+  padding:100px;
+  color:white;
 
-
+  
+  
+} 
  footer{
            border:  solid #2E86C1 2px;
    
@@ -183,9 +226,19 @@ border-radius:30px;
     transform: translate(10%)
   }
   .openpopup{
+    
      visibility:visible;
     top:60%;
     transform: translate(10%)
 
+    
+  }
+  form{
+    
+         padding:50px;
+    background-color: #F8D617;
+    opacity:0.6;
+    fony-size1.3em;
+     width:75%;
     
   }
